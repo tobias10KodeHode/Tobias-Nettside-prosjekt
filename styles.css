@@ -31,11 +31,12 @@ nav {
 nav a {
   color: #bf4f74;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 nav a:hover {
   background-color: rgb(95, 95, 95);
-  padding: 10px;
 }
 
 .hero article {
@@ -63,7 +64,7 @@ article {
   gap: 60px;
 }
 
-figure {
+.logo figure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,11 +98,18 @@ figure {
   justify-content: center;
 }
 
-#prosjekter figure img{
-  height: 250px;
-  width: auto;
+#prosjekter div{
+  background-color: white;
+  height: 500px;
+  width: 500px;
   display: flex;
   justify-content: center;
-  align-items: self-start;
+  padding: 15px;
+  flex-direction: column;
 
+}
+
+#prosjekter div a img{
+  height: 100%;
+  width: 100%;
 }
