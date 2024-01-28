@@ -98,7 +98,7 @@ article {
   justify-content: center;
 }
 
-#prosjekter div{
+#prosjekter div {
   background-color: white;
   height: 500px;
   width: 500px;
@@ -106,10 +106,15 @@ article {
   justify-content: center;
   padding: 15px;
   flex-direction: column;
-
 }
 
-#prosjekter div a img{
+#prosjekter div a img {
   height: 100%;
   width: 100%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
