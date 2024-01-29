@@ -8,6 +8,10 @@
   color: white;
 }
 
+main {
+  padding: 0 15% 
+}
+
 h1 {
   font-size: 40px;
 }
@@ -74,7 +78,7 @@ article {
 }
 
 #prosjekter p {
-  width: 500px;
+  text-align: justify;
 }
 
 .prosjekt_kort {
@@ -120,6 +124,7 @@ article {
 
 .prosjekt_kort_wrapper {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 32px;
 }
