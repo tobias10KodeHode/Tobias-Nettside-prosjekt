@@ -8,10 +8,6 @@
   color: white;
 }
 
-main {
-  padding: 0 15% 
-}
-
 h1 {
   font-size: 40px;
 }
@@ -163,3 +159,37 @@ article {
   background-color: transparent;
   border: none;
 }
+
+.page-padding {
+    padding-inline: 16px
+  }
+  @media (min-width: 375px) {
+    .page-padding {
+        padding-inline: 24px;
+    }
+  }
+  @media (min-width: 640px) {
+    .page-padding {
+        padding-inline: 40px
+    }
+  }
+  @media (min-width: 768px) {
+    .page-padding {
+        padding-inline: 48px
+    }
+  }
+  @media (min-width: 1024px) {
+    .page-padding {
+        padding-inline: 64px
+    }
+  }
+  @media (min-width: 1280px) {
+    .page-padding {
+        padding-inline: 80px
+    }
+  }
+  @media (min-width: 1536px) {
+    .page-padding {
+        padding-inline: 96px
+    }
+  }
