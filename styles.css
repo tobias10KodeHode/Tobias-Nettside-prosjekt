@@ -66,11 +66,22 @@ article {
 }
 
 #prosjekter {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 60px; */
+}
+
+#prosjekter p {
+  width: 500px;
+}
+
+.prosjekt_kort {
+  /* margin: 24px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
 }
 
 .logo figure {
@@ -107,23 +118,43 @@ article {
   justify-content: center;
 }
 
-#prosjekter div {
-  background-color: rgb(59, 59, 59);
+.prosjekt_kort_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+#prosjekter div .prosjekt_kort {
   height: 500px;
   width: 500px;
   display: flex;
   justify-content: center;
   padding: 15px;
   flex-direction: column;
+  padding: 16px;
+}
+
+#prosjekter div .prosjekt_kort p {
+  font-size: 16px;
+}
+
+#prosjekter div a {
+  height: 300px;
 }
 
 #prosjekter div a img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .btnToTop {
-display: flex;
-justify-content: center;
-align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btnToTop button {
+  background-color: transparent;
+  border: none;
 }
